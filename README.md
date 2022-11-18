@@ -1,6 +1,9 @@
 
 # Desafio Front end Mentor
 
+![desktop-preview](https://user-images.githubusercontent.com/103708832/202592398-32ddbbac-320b-402e-9955-8eb861ce7f9b.jpg)
+
+
 > Esse desafio foi proposto para ver o conhecimento em HTML e CSS. O site disponibiliza as imagens e algumas informações para ser usado no projeto, o objetivo é reproduzir o layout o mais proximo possivel.
 
 
