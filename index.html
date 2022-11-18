@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="container">
+            <div id="abaut"></div>
+            <nav class="nav-fixo">
+
+                <div class="logo"><img src="images/logo.svg" width="150px" alt=""></div>
+
+                <input type="checkbox" id="menu" class="botao-hamburguer">
+                <label for="menu">
+                    <span class="botao-menu"></span>
+                </label>
+
+                <ul class="lista-menu">
+                    <li class="lista-link-menu"><a class="nave" href="#abaut" onclick="fechar()">Abaut</a></li>
+                    <li class="lista-link-menu"><a class="nave" href="#services" onclick="fechar()">Services</a></li>
+                    <li class="lista-link-menu"><a class="nave" href="#projects" onclick="fechar()">Projects</a></li>
+                    <li class="lista-link-menu"><a class="nave" href="#contact" onclick="fechar()">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="texto-nav">
+            <h1 class="frase"> WE ARE CREATIVES</h1>
+
+            <img src="images/icon-arrow-down.svg" class="seta" alt="">
+        </div>
+    </header>
+
+    <main>
+        <div id="services"></div>
+
+        <div class="caixas-total">
+            <section class="conteudo">
+                <div class="primeira-caixa">
+                    <h2 class="subtitulo">Transform your <br> brand</h2>
+                    <p class="conteudo-texto-caixa">We are a full-service creative agency specializing in helping brands
+                        grow fast. Engage your clients
+                        through compelling visuals that do most of the marketing for you.</p>
+
+                    <a href="#" class="link-conteudo">LEARN MORE</a>
+
+                </div>
+
+                <img src="images/desktop/image-transform.jpg" class="segunda-caixa" alt="">
+            </section>
+
+            <section class="conteudo-2">
+
+                <img src="images/desktop/image-stand-out.jpg" class="terceira-caixa" alt="">
+
+                <div class="quarta-caixa">
+                    <h2 class="subtitulo">Stand out to the right audience</h2>
+                    <p class="conteudo-texto-caixa">Using a collaborative formula of designers, researchers,
+                        photographers,
+                        videographers, and copywriters,
+                        we’ll build and extend your brand in digital places.</p>
+
+                    <a href="#" class="link-conteudo-2">LEARN MORE</a>
+                </div>
+            </section>
+
+            <section class="conteudo-3">
+                <figure class="conteudo-3-titulo">
+                    <figcaption>
+                        <h2 class="titulo-conteudo-3">Graphic design</h2>
+                        <p class="texto-conteudo-3">Great design makes you memorable. We deliver artwork that
+                            underscores
+                            your brand message and captures potential clients’ attention.</p>
+                    </figcaption>
+                    <img src="images/desktop/image-graphic-design.jpg" class="quinta-caixa" alt="">
+
+                </figure>
+
+                <figure class="conteudo-3-titulo">
+                    <img src="images/desktop/image-photography.jpg" class="sexta-caixa" alt="">
+                    <figcaption>
+                        <h2 class="titulo-conteudo-3">Photography</h2>
+                        <p class="texto-conteudo-3">Increase your credibility by getting the most stunning, high-quality
+                            photos that improve your business image.
+                        </p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <div id="projects"></div>
+            <h2 class="msg">CLIENT TESTIMONIALS</h2>
+
+            <section class="menssagem">
+
+                <div class="cliente-1"><img src="images/image-emily.jpg" class="img-msg" alt="">
+                    <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines
+                        were
+                        always hit.</p>
+                    <h3>Emily R.</h3>
+                    <h5>Marketing Director</h5>
+                </div>
+
+                <div class="cliente-1"><img src="images/image-thomas.jpg" class="img-msg" alt="">
+                    <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a
+                        satisfying
+                        and
+                        enjoyable experience.</p>
+                    <h3>Thomas S.</h3>
+                    <h5>Chief Operating Officer</h5>
+                </div>
+
+                <div class="cliente-1"><img src="images/image-jennie.jpg" class="img-msg" alt="">
+                    <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly
+                        recommended!
+                    </p>
+                    <h3>Jennie F.</h3>
+                    <h5>Business Owner</h5>
+                </div>
+
+            </section>
+        </div>
+
+        <div class="fotos">
+            <figure class="fotos1">
+                <img class="img-foto1" src="images/desktop/image-gallery-milkbottles.jpg" alt="">
+                <img class="img-foto1" src="images/desktop/image-gallery-orange.jpg" alt="">
+            </figure>
+
+            <figure class="fotos2">
+                <img class="img-foto1" src="images/desktop/image-gallery-cone.jpg" alt="">
+                <img class="img-foto1" src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+            </figure>
+        </div>
+    </main>
+
+    <footer class="rodape">
+
+
+        <div class="logo-1">
+            <img class="img-logo2" src="images/logo2.svg" width="190px" alt="">
+        </div>
+
+        <div class="link-footer">
+            <ul class="lista-rodape">
+                <li class="lista-link-rodape"><a class="link-rodape" href="#">Abaut</a></li>
+                <li class="lista-link-rodape"><a class="link-rodape" href="#">Services</a></li>
+                <li class="lista-link-rodape"><a class="link-rodape" href="#">Projects</a></li>
+            </ul>
+        </div>
+
+        <div id="contact"></div>
+
+        <div class="icons">
+            <a href="#"><img class="icon-rodape" width="30px" src="images/icon-facebook.svg"
+                    onmouseover="this.src='./images/icon-facebook-branco.svg'"
+                    onmouseout="this.src='./images/icon-facebook.svg'" alt="Link facebook"></a>
+
+            <a href="#"><img class="icon-rodape" width="30px" src="images/icon-instagram.svg"
+                    onmouseover="this.src='./images/icon-instagram-branco.svg'"
+                    onmouseout="this.src='./images/icon-instagram.svg'" alt="Link instagram"></a>
+
+            <a href="#"><img class="icon-rodape" width="30px" src="images/icon-twitter.svg"
+                    onmouseover="this.src='./images/icon-twitter-branco.svg'"
+                    onmouseout="this.src='./images/icon-twitter.svg'" alt=""></a>
+
+            <a href="#"><img class="icon-rodape" width="30px" src="images/icon-pinterest.svg"
+                    onmouseover="this.src='./images/icon-pinterest-branco.svg'"
+                    onmouseout="this.src='./images/icon-pinterest.svg'" alt=""></a>
+
+        </div>
+
+
+    </footer>
+
+
+    <script src="Js/main.js"></script>
+</body>
+
+</html>
